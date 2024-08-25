@@ -7,18 +7,88 @@
     <!-- css -->
     <!-- <link rel="stylesheet" href="style.css" /> -->
     <!-- daisy ui cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- tailwind css cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- locomotive css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
   </head>
-  <body>
-
-
-
-
+  <body class="bg-black text-white">
+    <header>
+      <section id="main" class="min-h-dvh w-full">
+        <!-- navbar starts here -->
+        <div class="h-14 flex justify-between items-center px-8">
+          <img
+            class="h-6"
+            src="https://duo-studio.co/assets/logo.svg"
+            alt=""
+            srcset=""
+          />
+          <!-- nav part 2 -->
+          <div class="flex justify-center gap-5">
+            <h4 class="underline"><a href="#">Home</a></h4>
+            <h4><a href="#">Work</a></h4>
+            <h4><a href="#">Studio</a></h4>
+            <h4><a href="#">Contact</a></h4>
+          </div>
+          <!-- nav part 3 -->
+          <div><div class="rounded-full h-5 w-5 bg-white"></div></div>
+        </div>
+        <!-- hero section -->
+        <h1 id="title-one" class="text-[8vw] mt-[12vw] ml-[6vw] leading-none">
+          Digitally crafted
+        </h1>
+        <h1 id="title-two" class="text-[8vw] ml-[26vw] leading-none">Brand experiences</h1>
+        <video
+          autoplay
+          muted
+          loop
+          src="https://duo-studio.co/assets/home/Duo%20Reel--Desktop-reduced.mp4"
+          class="mx-auto mt-[10vw]"
+        ></video>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+    <!-- gsap cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- scroll trigger -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- locomotive -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <!-- javascript -->
-     <script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
